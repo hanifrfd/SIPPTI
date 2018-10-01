@@ -8,7 +8,7 @@ $(document).ready(function() {
 		UnitKerja = $(this).find(":selected").val() + ' selected val';
 
 		$.ajax({
-			url: "http://localhost/CI/Skripsi/API/get_pencarian/" + UnitKerja,
+			url: BASE_URL + "API/get_pencarian/" + UnitKerja,
 			type: 'get',
 			success: function(data) {
 				var status;

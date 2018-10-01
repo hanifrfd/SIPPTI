@@ -89,7 +89,7 @@ $(document).ready(function() {
 			function get_it(callback) {
 				$.ajax({
 					type: "GET",
-					url: "http://localhost/CI/Skripsi/API/get_jumpengajuan_byUnitKerja",
+					url: BASE_URL + "API/get_jumpengajuan_byUnitKerja",
 					dataType: "json",
 					success: callback
 				});
@@ -99,7 +99,7 @@ $(document).ready(function() {
 				var atas = null;
 				$.ajax({
 					type: "GET",
-					url: "http://localhost/CI/Skripsi/API/get_jumpengajuan_byUnitKerja",
+					url: BASE_URL + "API/get_jumpengajuan_byUnitKerja",
 					dataType: "json",
 					async: false,
 					global: false,

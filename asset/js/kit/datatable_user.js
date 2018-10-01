@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	var tabel_datapengajuan = $('#tableDataUser').DataTable({
 		"ajax": {
-			"url": "http://localhost/CI/Skripsi/API/get_user_all",
+			"url": BASE_URL + "API/get_user_all",
 			"dataSrc": ""
 
 		},
