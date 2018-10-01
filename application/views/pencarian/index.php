@@ -12,9 +12,10 @@
 	<!-- JS Libs -->
 	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js" type="text/javascript"></script> -->
 	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script> -->
-	<script type="text/javascript" src="<?php echo base_url();?>asset/js/plugins/jquery/jquery-3.1.0.min.js"></script>
-	<script type="text/javascript" src="<?php echo base_url();?>asset/js/plugins/bootstrap/bootstrap-3.3.7.min.js"></script>
-	<script type="text/javascript" src="<?php echo base_url();?>asset/js/kit/addteknisi.js"></script>	
+	<!-- <script type="text/javascript" src="<?php echo base_url();?>asset/js/plugins/jquery/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="<?php echo base_url();?>asset/js/plugins/bootstrap/bootstrap-3.3.7.min.js"></script> -->
+	<script type="text/javascript" src="<?php echo base_url();?>asset/js/plugins/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="<?php echo base_url();?>asset/js/plugins/jquery/jquery-ui.min.js"></script>	
 	<script type="text/javascript">
 		var BASE_URL = "<?php echo base_url();?>";
 	</script>
@@ -187,10 +188,9 @@
 		<?php if ($this->session->flashdata('msg-insert')) : ?>
 		<script type="text/javascript">
 			$(document).ready(function () {
-				$("#ModalSuccess").find(".modal-content").load(BASE_URL + "application/views/layouts/successinsert.php");
+				$("#ModalSuccess").find(".modal-content").load(BASE_URL + "application/layouts/successinsert.php");
 				$("#ModalSuccess").modal();
 			});
-
 		</script>
 		<?php endif;?>
 	</div>
@@ -201,6 +201,7 @@
 	<!-- START PLUGINS -->
 	<script type="text/javascript" src="<?php echo base_url();?>asset/js/plugins/jquery/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php echo base_url();?>asset/js/plugins/jquery/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="<?php echo base_url();?>asset/js/plugins/bootstrap/bootstrap.min.js"></script>
 	<!-- <script type="text/javascript" src="<?php echo base_url();?>asset/js/plugins/bootstrap/bootstrap.min.js"></script> -->
 	<!-- <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/plugins/bootstrap/bootstrap.min.js"></script> -->
 	<!-- END PLUGINS -->

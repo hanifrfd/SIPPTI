@@ -9,8 +9,7 @@
 	<!-- CSS styles -->
 	<link rel="stylesheet" type="text/css" id="theme" href="<?php echo base_url();?>asset/css/theme-default.css" />
 
-	<link rel="stylesheet" type="text/css" id="theme" href="<?php echo base_url();?>asset/css/datatables/select.dataTables.min.css" />
-	<link rel="stylesheet" type="text/css" id="theme" href="<?php echo base_url();?>asset/css/theme-default.css" />
+	<link rel="stylesheet" type="text/css" id="theme" href="<?php echo base_url();?>asset/css/datatables/select.dataTables.min.css" />	
 	<script type="text/javascript" src="<?php echo base_url();?>asset/js/plugins/jquery/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php echo base_url();?>asset/js/plugins/jquery/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="<?php echo base_url(); ?>asset/js/plugins/chart/Chart.min.js"></script>
